@@ -1,0 +1,63 @@
+::selection{
+    background-color: #ff6881;
+    color: #fff;
+}
+
+
+.tabcontainer{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    }
+
+.logocontainer{
+    cursor: default;
+    user-select: none;
+}
+
+.youcantselect{
+    user-select: none;
+}
+
+.logo{
+    display: block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.bodyooo{
+    overflow-x: hidden;
+}
+
+.howtocenter{
+    margin: 0 auto;
+}
+
+.biglogo{
+    padding-top: 50px;
+    width:90%;
+    height: auto;
+    
+}
+
+.biglogoson{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    filter: drop-shadow(0 0.2rem 0.75rem #fb7881);
+}
+
+.shadowtext{
+    text-shadow: 0 0 0.6rem #fb7881;
+}
+
+.headtext2{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding-top: 20px;
+}
+
+.links{
+    line-height: 2rem;
+}
