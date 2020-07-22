@@ -7,12 +7,10 @@
   
     <!--  CSS-->
     <link href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css" rel="stylesheet">
-    <link href="/caliburpixel/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="/caliburpixel/css/mdui.css" rel="stylesheet"/>
-    <link href="/caliburpixel/css/style2.css" rel="stylesheet"/>
-    <link href="/caliburpixel/css/style1.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" type="text/css" rel="stylesheet">
+    <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="/css/mdui.css" rel="stylesheet"/>
+    <link href="/css/style2.css" rel="stylesheet"/>
+    <link href="/css/style1.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   </head>
   <body class="mdui-theme-primary-calibur mdui-theme-accent-calibur bodyooo">
 
@@ -23,7 +21,7 @@
 <div class="calimd-appbar">
     <div class="mdui-toolbar mdui-color-white">
       <a data-target="nav-mobile" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-pink sidenav-trigger" mdui-drawer="{target: '#drawer',overlay:true,swipe:true}"><i class="mdui-icon material-icons">menu</i></a>
-      <div class="logocontainer"><img class="logo " src="/caliburpixel/pics/logo.png"></div>
+      <div class="logocontainer"><img class="logo" src="/pics/logo.png"></div>
       <div class="mdui-toolbar-spacer"></div>
     </div>
   </div>
@@ -34,16 +32,16 @@
 
     <div class="mdui-drawer mdui-color-white mdui-drawer-full-height mdui-drawer-close" id="drawer">
       <ul class="mdui-list">
-        <a href="/caliburpixel" li  class="mdui-list-item mdui-ripple mdui-ripple-pink">
+        <a href="/" li  class="mdui-list-item mdui-ripple mdui-ripple-pink">
           <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
           <div class="mdui-list-item-content">首页</div>
         </li></a>
-        <a href="https://docs.qq.com/sheet/Bnr7N31xwOuZ38eCPg4WQ6DQ4cqzJz0AIrMh0BAjcE02IR2M2Z9BHe4A5kfk2KKqCR3cydNd1?c=B29A0F0"
+        <a href="https://docs.qq.com/sheet/Bnr7N31xwOuZ38eCPg4WQ6DQ4cqzJz0AIrMh0BAjcE02IR2M2Z9BHe4A5kfk2KKqCR3cydNd1?c=B29A0F0/"
         li class="mdui-list-item mdui-ripple mdui-ripple-pink" >
           <i class="mdui-list-item-icon mdui-icon material-icons">block</i>
           <div class="mdui-list-item-content">封禁详细</div>
         </a>
-        <a href="https://docs.qq.com/form/fill/DV3BvYmZUdXBhT1pw?_w_tencentdocx_form=1"
+        <a href="https://docs.qq.com/form/fill/DV3BvYmZUdXBhT1pw?_w_tencentdocx_form=1/"
         li class="mdui-list-item mdui-ripple mdui-ripple-pink" >
           <i class="mdui-list-item-icon mdui-icon material-icons">assignment</i>
           <div class="mdui-list-item-content">盗版白名单申请</div>
@@ -53,7 +51,7 @@
           <div class="mdui-list-item-content">捐赠</div>
         </li>
         <li class="mdui-subheader">主站</li>
-        <a href="https://www.calibur.tv"
+        <a href="https://www.calibur.tv/"
         li class="mdui-list-item mdui-ripple mdui-ripple-pink" >
           <i class="mdui-list-item-icon mdui-icon material-icons">arrow_back</i>
           <div class="mdui-list-item-content">返回主站</div>
@@ -79,6 +77,10 @@
     
             <tbody>
               <tr>
+                <td>匿名用户1</td>
+                <td>￥400.00</td>
+              </tr>
+              <tr>
                 <td>Lingfeng_Endless</td>
                 <td>￥342.93</td>
               </tr>
@@ -87,12 +89,12 @@
                 <td>￥300.00</td>
               </tr>
               <tr>
-                <td>匿名</td>
-                <td>￥300.00</td>
-              </tr>
-              <tr>
                 <td>Lorie_Candy</td>
                 <td>￥123.33</td>
+              </tr>
+              <tr>
+                <td>MODE_XD</td>
+                <td>￥122.38</td>
               </tr>
               <tr>
                 <td>ShadsT_</td>
@@ -123,6 +125,10 @@
                 <td>￥66.00</td>
               </tr>
 			  <tr>
+                <td>SalmonNOC</td>
+                <td>￥60.00</td>
+              </tr>
+			  <tr>
                 <td>MetroCrt</td>
                 <td>￥60.00</td>
               </tr>
@@ -134,6 +140,14 @@
                 <td>Munuo_scen</td>
                 <td>￥60.00</td>
               </tr>
+              <tr>
+                <td>Charles_Fb</td>
+                <td>￥50.90</td>
+              </tr>
+			  <tr>
+			    <td>Smash_Egg</td>
+				<td>￥50.00</td>
+			  </tr>
 			  <tr>
 			    <td>Super_Onigiri</td>
 				<td>￥50.00</td>
@@ -255,7 +269,9 @@
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">Calibur Pixel</h5>
-                <!-- p class="pink-text text-lighten-4"><br>*</!-- p>-->
+                <ul>
+                  <li><a class="pink-text text-lighten-4 links" href="http://www.beian.miit.gov.cn/">互联网 ICP 备案：沪 ICP 备 17050785 号 - 1</a></li>
+                </ul>
       
       
       
@@ -267,7 +283,6 @@
                   <li><a class="pink-text text-lighten-4 links" href="https://space.bilibili.com/4702235">智乃的哔哩哔哩</a></li>
                   <li><a class="pink-text text-lighten-4 links" href="https://tis.world/">TIS TrinityUnion</a></li>
                   <li><a class="pink-text text-lighten-4 links" href="https://urbanemc.net/">Urbane Network</a></li>
-                  <li><a class="pink-text text-lighten-4 links" href="https://www.cnury.club/">Cnury Minecraft 社区</a></li>
                 </ul>
               </div>
             </div>
@@ -281,6 +296,6 @@
 
   <!--  脚本-->
   <script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
-  <script src="/caliburpixel/js/materialize.min.js"></script>
-  <script src="/caliburpixel/js/init.js"></script>
-  <script src="/caliburpixel/js/mdui.min.js"></script>
+  <script src="/js/materialize.min.js"></script>
+  <script src="/js/init.js"></script>
+  <script src="/js/mdui.min.js"></script>
