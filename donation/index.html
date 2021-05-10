@@ -1,63 +1,59 @@
 <html lang="zh">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, , maximum-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"/>
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="referrer" content="no-referrer"/>
     <title>捐赠 - Calibur Pixel</title>
     <link href="https://file.calibur.tv/favicon.ico" rel="shortcut icon">
   
     <!--  CSS-->
     <link href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css" rel="stylesheet">
-    <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="/css/mdui.css" rel="stylesheet"/>
+    <link href="https://cdn.staticfile.org/materialize/1.0.0/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css" rel="stylesheet"/>
     <link href="/css/style2.css" rel="stylesheet"/>
     <link href="/css/style1.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   </head>
-  <body class="mdui-theme-primary-calibur mdui-theme-accent-calibur bodyooo">
+  <body class="mdui-appbar-with-toolbar mdui-theme-primary-calibur mdui-theme-accent-calibur mdui-theme-layout-auto mdui-drawer-body-left bodyooo">
 
 
-
-  <body class="mdui-theme-primary-calibur mdui-theme-accent-calibur bodyooo"></body>
 <!--顶栏-->
-<div class="calimd-appbar">
-    <div class="mdui-toolbar mdui-color-white">
-      <a data-target="nav-mobile" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-pink sidenav-trigger" mdui-drawer="{target: '#drawer',overlay:true,swipe:true}"><i class="mdui-icon material-icons">menu</i></a>
-      <div class="logocontainer"><img class="logo" src="/pics/logo.png"></div>
-      <div class="mdui-toolbar-spacer"></div>
+<header class="mdui-appbar mdui-appbar-fixed">
+  <div class="mdui-toolbar mdui-color-white">
+    <a data-target="nav-mobile" class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target:'#drawer',swipe:true}" mdui-tooltip="{content: '菜单'}"><i class="mdui-icon material-icons">menu</i></a>
+    <a href="../" class="logocontainer"><img class="logo" src="/pics/logo.png">
+    <a href="../" class="mdui-typo-headline">Calibur Pixel</a>
     </div>
-  </div>
+    <div class="mdui-toolbar-spacer"></div>
+</header>
 
 
-  <!--左侧drawer-->
-  <body class="mdui-drawer-body-left">
-
-    <div class="mdui-drawer mdui-color-white mdui-drawer-full-height mdui-drawer-close" id="drawer">
-      <ul class="mdui-list">
-        <a href="/" li  class="mdui-list-item mdui-ripple mdui-ripple-pink">
-          <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
-          <div class="mdui-list-item-content">首页</div>
-        </li></a>
-        <a href="https://docs.qq.com/sheet/Bnr7N31xwOuZ38eCPg4WQ6DQ4cqzJz0AIrMh0BAjcE02IR2M2Z9BHe4A5kfk2KKqCR3cydNd1?c=B29A0F0/"
-        li class="mdui-list-item mdui-ripple mdui-ripple-pink" >
-          <i class="mdui-list-item-icon mdui-icon material-icons">block</i>
-          <div class="mdui-list-item-content">封禁详细</div>
-        </a>
-        <a href="https://docs.qq.com/form/fill/DV3BvYmZUdXBhT1pw?_w_tencentdocx_form=1/"
-        li class="mdui-list-item mdui-ripple mdui-ripple-pink" >
-          <i class="mdui-list-item-icon mdui-icon material-icons">assignment</i>
-          <div class="mdui-list-item-content">盗版白名单申请</div>
-        </a>
-        <li a href="" class="mdui-list-item mdui-ripple mdui-ripple-pink mdui-text-color-theme mdui-list-item-active">
-          <i class="mdui-list-item-icon mdui-icon material-icons">payment</i>
-          <div class="mdui-list-item-content">捐赠</div>
-        </li>
-        <li class="mdui-subheader">主站</li>
-        <a href="https://www.calibur.tv/"
-        li class="mdui-list-item mdui-ripple mdui-ripple-pink" >
-          <i class="mdui-list-item-icon mdui-icon material-icons">arrow_back</i>
-          <div class="mdui-list-item-content">返回主站</div>
-        </a>
-        </li>
-    </div>
+<!--左侧drawer-->
+<div class="mdui-drawer" id="drawer">
+  <ul class="mdui-list">
+    <a href="/" li class="mdui-list-item mdui-ripple mdui-ripple-pink">
+      <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
+      <div class="mdui-list-item-content">首页</div>
+    </li></a>
+    <a href="https://docs.qq.com/sheet/Bnr7N31xwOuZ38eCPg4WQ6DQ4cqzJz0AIrMh0BAjcE02IR2M2Z9BHe4A5kfk2KKqCR3cydNd1?c=B29A0F0"
+    li class="mdui-list-item mdui-ripple mdui-ripple-pink" >
+      <i class="mdui-list-item-icon mdui-icon material-icons">block</i>
+      <div class="mdui-list-item-content">封禁详细</div>
+    </a>
+    <li class="mdui-list-item mdui-ripple mdui-ripple-pink mdui-text-color-theme mdui-list-item-active">
+      <i class="mdui-list-item-icon mdui-icon mdui-text-color-theme material-icons">payment</i>
+      <div class="mdui-list-item-content">捐赠</div>
+    </li>
+    <li class="mdui-subheader">主站</li>
+    <a href="https://www.calibur.tv"
+    li class="mdui-list-item mdui-ripple mdui-ripple-pink" >
+      <i class="mdui-list-item-icon mdui-icon material-icons">arrow_back</i>
+      <div class="mdui-list-item-content">返回主站</div>
+    </a>
+    </li>
+</div>
 
 
       <div class="container">
@@ -77,6 +73,10 @@
     
             <tbody>
               <tr>
+                <td>mumsimat</td>
+                <td>￥566.00</td>
+              </tr>
+              <tr>
                 <td>匿名用户1</td>
                 <td>￥400.00</td>
               </tr>
@@ -89,6 +89,22 @@
                 <td>￥300.00</td>
               </tr>
               <tr>
+                <td>ShadsT_</td>
+                <td>￥220.00</td>
+              </tr>
+              <tr>
+                <td>ITIING</td>
+                <td>￥200.00</td>
+              </tr>
+              <tr>
+                <td>ZEALOT9527</td>
+                <td>￥180.00</td>
+              </tr>
+              <tr>
+                <td>Munuo_scen</td>
+                <td>￥160.00</td>
+              </tr>
+              <tr>
                 <td>Lorie_Candy</td>
                 <td>￥123.33</td>
               </tr>
@@ -97,12 +113,16 @@
                 <td>￥122.38</td>
               </tr>
               <tr>
-                <td>ShadsT_</td>
-                <td>￥120.00</td>
-              </tr>
-              <tr>
                 <td>热心市民海德拉</td>
                 <td>￥101.00</td>
+              </tr>
+              <tr>
+                <td>demoshxw</td>
+                <td>￥100.00</td>
+              </tr>
+              <tr>
+                <td>adssy</td>
+                <td>￥100.00</td>
               </tr>
               <tr>
                 <td>RainbowCIash</td>
@@ -121,14 +141,14 @@
                 <td>￥67.00</td>
               </tr>
               <tr>
-                <td>mumsimat</td>
+                <td>Sakushin_HY</td>
                 <td>￥66.00</td>
               </tr>
-			  <tr>
+              <tr>
                 <td>SalmonNOC</td>
                 <td>￥60.00</td>
               </tr>
-			  <tr>
+              <tr>
                 <td>MetroCrt</td>
                 <td>￥60.00</td>
               </tr>
@@ -137,21 +157,17 @@
                 <td>￥60.00</td>
               </tr>
               <tr>
-                <td>Munuo_scen</td>
-                <td>￥60.00</td>
-              </tr>
-              <tr>
                 <td>Charles_Fb</td>
                 <td>￥50.90</td>
               </tr>
-			  <tr>
-			    <td>Smash_Egg</td>
-				<td>￥50.00</td>
-			  </tr>
-			  <tr>
-			    <td>Super_Onigiri</td>
-				<td>￥50.00</td>
-			  </tr>
+              <tr>
+                <td>Smash_Egg</td>
+                <td>￥50.00</td>
+              </tr>
+              <tr>
+                <td>Super_Onigiri</td>
+                <td>￥50.00</td>
+              </tr>
               <tr>
                 <td>AlpacaSir</td>
                 <td>￥50.00</td>
@@ -165,11 +181,15 @@
                 <td>￥50.00</td>
               </tr>
               <tr>
-                <td>ZEALOT9527</td>
+                <td>ItsZTChun</td>
                 <td>￥50.00</td>
               </tr>
               <tr>
-                <td>ItsZTChun</td>
+                <td>can_tian</td>
+                <td>￥50.00</td>
+              </tr>
+              <tr>
+                <td>HG_SB</td>
                 <td>￥50.00</td>
               </tr>
               <tr>
@@ -181,12 +201,20 @@
                 <td>￥45.00</td>
               </tr>
               <tr>
+                <td>tfc1306</td>
+                <td>￥30.00</td>
+              </tr>
+              <tr>
                 <td>AmySmith797</td>
                 <td>￥30.00</td>
               </tr>
               <tr>
                 <td>WUYUE10124</td>
                 <td>￥30.00</td>
+              </tr>
+              <tr>
+                <td>Wuqibor</td>
+                <td>￥29.29</td>
               </tr>
               <tr>
                 <td>shenbi_spiderman</td>
@@ -253,6 +281,10 @@
                 <td>￥1.23</td>
               </tr>
               <tr>
+                <td>Fairy_YaYa_OVO</td>
+                <td>￥1.00</td>
+              </tr>
+              <tr>
                 <td>thwy11</td>
                 <td>￥0.01</td>
               </tr>
@@ -264,34 +296,33 @@
         </div>
 
 
-        <footer class="page-footer calibur-pink">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Calibur Pixel</h5>
-                <ul>
-                  <li><a class="pink-text text-lighten-4 links" href="http://www.beian.miit.gov.cn/">互联网 ICP 备案：沪 ICP 备 17050785 号 - 1</a></li>
-                </ul>
-      
-      
-      
-              </div>
-              <div class="col l3 s12">
-                <h5 class="white-text">友情链接</h5>
-                <ul>
-                  <li><a class="pink-text text-lighten-4 links" href="https://space.bilibili.com/22807093">艾拉的哔哩哔哩</a></li>
-                  <li><a class="pink-text text-lighten-4 links" href="https://space.bilibili.com/4702235">智乃的哔哩哔哩</a></li>
-                  <li><a class="pink-text text-lighten-4 links" href="https://tis.world/">TIS TrinityUnion</a></li>
-                  <li><a class="pink-text text-lighten-4 links" href="https://urbanemc.net/">Urbane Network</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
-            <a class="white-text">©Calibur Pixel 2018-2020</a>
-            </div>
-        </footer>
+<!--白丝页脚(?)-->
+<footer class="page-footer mdui-color-theme">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="mdui-text-color-white-text bold">Calibur Pixel</h5>
+        <ul>
+        <li><a class="mdui-text-color-white-secondary links" href="http://www.beian.miit.gov.cn/">互联网ICP备案：沪ICP备17050785号-1</a></li>
+        </ul>
+
+      </div>
+      <div class="col l3 s12">
+        <h5 class="mdui-text-color-white-text bold">友情链接</h5>
+        <ul>
+          <li><a class="mdui-text-color-white-secondary links" href="https://space.bilibili.com/22807093">艾拉的哔哩哔哩</a></li>
+          <li><a class="mdui-text-color-white-secondary links" href="https://space.bilibili.com/4702235">智乃的哔哩哔哩</a></li>
+          <li><a class="mdui-text-color-white-secondary links" href="https://tis.world/">TIS TrinityUnion</a></li>
+          <li><a class="mdui-text-color-white-secondary links" href="https://urbanemc.net/">Urbane Network</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    <a class="mdui-text-color-white-text" href="https://www.calibur.tv/">©上海十六夜网络科技有限公司</a>
+    </div>
+</footer>
 
 
   <!--  脚本-->

@@ -51,3 +51,64 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.calimd-appbar {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,.28);
+}
+
+.mdui-theme-primary-calibur .mdui-color-theme {
+  color: #fff !important;
+  background-color: #fb6881 !important;
+}
+
+.mdui-theme-accent-calibur .mdui-color-theme-accent {
+  color: #fff !important;
+  background-color: #fb6881 !important;
+}
+
+.calibur-color-pink {
+  color: #fff !important;
+  background-color: #fb6881 !important;
+}
+
+.mdui-theme-primary-calibur .mdui-text-color-theme {
+  color: #fb6881 !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.mdui-tab .mdui-tab-active {
+  color: #fb6881 !important;
+}
+
+.mdui-checkbox input[type=checkbox]:checked+.mdui-checkbox-icon::after {
+  background-color: #fb6881 !important;
+  border-color: #fb6881 !important;
+  border-top-color: #fb6881 !important;
+  border-right-color: #fb6881 !important;
+  border-bottom-color: #fb6881 !important;
+  border-left-color: #fb6881 !important;
+}
+
+.mdui-radio-icon::before {
+  background-color: #fb6881 !important
+}
+
+.mdui-radio input[type=radio]:checked+.mdui-radio-icon {
+  border-color: #fb6881 !important;
+  border-top-color: #fb6881 !important;
+  border-right-color: #fb6881 !important;
+  border-bottom-color: #fb6881 !important;
+  border-left-color: #fb6881 !important;
+}
+
+.mdui-tab-indicator {
+  background-color: #fb6881 !important
+}

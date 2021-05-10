@@ -1,6 +1,5 @@
 ::selection{
     background-color: #ff6881;
-    color: #fff;
 }
 
 
@@ -11,7 +10,6 @@
     }
 
 .logocontainer{
-    cursor: default;
     user-select: none;
 }
 
@@ -35,7 +33,7 @@
 }
 
 .biglogo{
-    padding-top: 50px;
+    padding-top: 1.5rem;
     width:90%;
     height: auto;
     

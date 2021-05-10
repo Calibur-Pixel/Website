@@ -1,5 +1,6 @@
 /*!
  * mdui v0.4.2 (https://mdui.org)
+ * Calibur Pixel Modified v0.2
  * Copyright 2016-2018 zdhxiong
  * Licensed under MIT
  */
@@ -4959,7 +4960,7 @@ template {
  * =============================================================================
  */
 body {
-  font-family: Roboto, Noto, Helvetica, Arial, sans-serif;
+  font-family: Roboto, "Noto Sans CJK SC", Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: rgba(0, 0, 0, .87);
   background-color: #fafafa;
@@ -5085,7 +5086,7 @@ body.mdui-locked {
  *
  * https://github.com/google/material-design-icons/
  * v3.0.1
- 
+
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
@@ -5095,14 +5096,14 @@ body.mdui-locked {
 }
 .material-icons {
   font-family: 'Material Icons';
-  /* Support for all WebKit browsers. 
+  /* Support for all WebKit browsers.
 
   -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. 
+  /* Support for Safari and Chrome.
   text-rendering: optimizeLegibility;
-  /* Support for Firefox. 
+  /* Support for Firefox.
   -moz-osx-font-smoothing: grayscale;
-  /* Support for IE. 
+  /* Support for IE.
   -webkit-font-feature-settings: 'liga';
      -moz-font-feature-settings: 'liga';
           font-feature-settings: 'liga';
@@ -5111,7 +5112,7 @@ body.mdui-locked {
  * =============================================================================
  * ************   Roboto 字体   ************
  * =============================================================================
- 
+
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
@@ -9604,7 +9605,7 @@ select.mdui-select[multiple] option:last-child {
   right: 0;
   left: 0;
   z-index: 1000;
-  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4.8px 10.8px rgba(0,0,0,0.13), 0px 0.9px 2.7px rgba(0,0,0,0.11);
   /*box-shadow: 0 1px 2px rgba(0,0,0,.1);*/
 }
 
@@ -9990,9 +9991,29 @@ select.mdui-select[multiple] option:last-child {
   cursor: default;
 }
 .mdui-tab .mdui-tab-active {
+  position: relative;
   color: #fb7881;
   opacity: 1;
 }
+
+.mdui-tab .mdui-tab-active:after {
+  content: '';
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 0;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fb7881;
+}
+
+@media (min-width: 600px) {
+  .mdui-tab .mdui-tab-active:after {
+    left: 24px;
+    right: 24px;
+  }
+}
+
 .mdui-tab .mdui-tab-active .mdui-icon {
   opacity: 1;
 }
