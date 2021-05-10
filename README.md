@@ -1,6 +1,6 @@
 # Calibur Pixel Website
 
->艾拉的练手菜鸡作品
+>静态页面
 >服务端为Nginx
 
 ## 使用样式
