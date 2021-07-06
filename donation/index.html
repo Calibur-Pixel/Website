@@ -10,7 +10,7 @@
     <link href="https://file.calibur.tv/favicon.ico" rel="shortcut icon">
   
     <!--  CSS-->
-    <link href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/material-design-icons/3.0.2/iconfont/material-icons.css" rel="stylesheet">
     <link href="https://cdn.staticfile.org/materialize/1.0.0/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css" rel="stylesheet"/>
     <link href="/css/style2.css" rel="stylesheet"/>
@@ -24,7 +24,7 @@
   <div class="mdui-toolbar calibur-color-pink">
     <a data-target="nav-mobile" class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target:'#drawer',swipe:true}" mdui-tooltip="{content: '菜单'}"><i class="mdui-icon material-icons">menu</i></a>
     <a href="../" class="logocontainer"><img class="logo" src="/pics/logo.png">
-    <a href="../" class="mdui-typo-headline">Calibur Pixel</a>
+    <a href="../" class="mdui-typo-headline">捐赠列表</a>
     </div>
     <div class="mdui-toolbar-spacer"></div>
 </header>
@@ -50,7 +50,7 @@
     <a href="https://www.calibur.tv"
     li class="mdui-list-item mdui-ripple mdui-ripple-pink" >
       <i class="mdui-list-item-icon mdui-icon material-icons">arrow_back</i>
-      <div class="mdui-list-item-content">返回主站</div>
+      <div class="mdui-list-item-content">calibur 主站</div>
     </a>
     </li>
 </div>
@@ -59,15 +59,12 @@
       <div class="container">
         <div class="section">
           <div class="row">
-            <div class="col s12 center">
-              <h3><i class="mdi-content-send light-blue-text"></i></h3>
-              <h4>捐赠列表</h4>  
-            <table>
+          <div class="mdui-table-fluid">
+            <table class="mdui-table mdui-table-hoverable">
             <thead>
               <tr>
                   <th>玩家ID / 昵称</th>
                   <th>金额</th>
-                  <th></th>
               </tr>
             </thead>
     
@@ -91,6 +88,10 @@
               <tr>
                 <td>ShadsT_</td>
                 <td>￥220.00</td>
+              </tr>
+              <tr>
+                <td>LiaoJC</td>
+                <td>￥200.00</td>
               </tr>
               <tr>
                 <td>ITIING</td>
@@ -201,6 +202,10 @@
                 <td>￥45.00</td>
               </tr>
               <tr>
+                <td>Mathias_Blade</td>
+                <td>￥40.00</td>
+              </tr>
+              <tr>
                 <td>tfc1306</td>
                 <td>￥30.00</td>
               </tr>
@@ -231,6 +236,10 @@
               <tr>
                 <td>Dong_Z</td>
                 <td>￥15.00</td>
+              </tr>
+              <tr>
+                <td>dsjfiajsid</td>
+                <td>￥12.34</td>
               </tr>
               <tr>
                 <td>Sophine·Chocovanilazuki</td>
@@ -277,6 +286,10 @@
                 <td>￥1.50</td>
               </tr>
               <tr>
+                <td>666606</td>
+                <td>￥1.11</td>
+              </tr>
+              <tr>
                 <td>MeuCh_</td>
                 <td>￥1.23</td>
               </tr>
@@ -290,11 +303,23 @@
               </tr>
             </tbody>
           </table>
-                </div>
+          </div>
           </div>
         </div>
         </div>
 
+<!--浮动操作按钮-->
+<div class="mdui-fab-wrapper" mdui-fab>
+  <a href="https://sakuranomiya.moe/d/2" button class="mdui-fab mdui-ripple mdui-color-theme-accent" mdui-tooltip="{content: '填写盗版白名单申请', position: 'left'}">
+    <i class="mdui-icon material-icons">add</i>
+    <i class="mdui-icon mdui-fab-opened material-icons">mode_edit</i>
+  </button>
+  </a>
+  <div class="mdui-fab-dial">
+    <a href="https://sakuranomiya.moe/t/calibur-pixel" button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-indigo" mdui-tooltip="{content: '进入新论坛', position: 'left'}"><i class="mdui-icon material-icons">forum</i></button></a>
+    <a href="https://jq.qq.com/?_wv=1027&k=w8qwhy9P" button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-pink" mdui-tooltip="{content: '加入QQ群', position: 'left'}"><i class="mdui-icon material-icons">chat</i></button></a>
+  </div>
+</div>
 
 <!--白丝页脚(?)-->
 <footer class="page-footer mdui-color-theme">
@@ -326,7 +351,7 @@
 
 
   <!--  脚本-->
-  <script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/jquery/3.6.0/jquery.min.js"></script>
   <script src="/js/materialize.min.js"></script>
   <script src="/js/init.js"></script>
   <script src="/js/mdui.min.js"></script>
