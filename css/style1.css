@@ -107,3 +107,13 @@ footer.page-footer {
 .mdui-tab-indicator {
   background-color: #fb6881 !important
 }
+
+
+iframe{
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  background: #212224;
+  margin: 0;
+  border: 0;
+}
