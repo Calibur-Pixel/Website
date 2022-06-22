@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <title>Calibur Pixel - 咔哩吧官方MC服务器</title>
-  <link href="pics/logo.png" rel="shortcut icon">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"/>
-  <meta name="renderer" content="webkit"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,viewport-fit=cover">  <meta name="renderer" content="webkit"/>
   <meta name="force-rendering" content="webkit"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
   <meta name="referrer" content="no-referrer"/>
   <meta name="theme-color" content="#c43455">
+  <title>Calibur Pixel - 咔哩吧官方MC服务器</title>
+  <link href="/pics/logo.png" rel="shortcut icon">
+
+  <!--  CSS-->
   <link href="https://cdn.staticfile.org/materialize/1.0.0/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="https://cdn.staticfile.org/mdui/1.0.2/css/mdui.min.css" rel="stylesheet"/>
-  <link href="css/style2.css" rel="stylesheet"/>
-  <link href="css/style1.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/style1.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
 <body class="mdui-appbar-with-toolbar mdui-theme-primary-calibur mdui-theme-accent-calibur mdui-theme-layout-auto mdui-drawer-body-left bodyooo">
@@ -21,9 +21,9 @@
 <!--顶栏-->
 <header class="mdui-appbar mdui-appbar-fixed">
   <div class="mdui-toolbar calibur-color-pink">
-    <a data-target="nav-mobile" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target:'#drawer',swipe:true}" mdui-tooltip="{content: '菜单'}"><i class="mdui-icon material-icons">menu</i></a>
-    <a href="../" class="logocontainer"><img class="logo" src="pics/logo.png">
-    <a href="../" class="mdui-typo-headline">Calibur Pixel</a>
+    <a data-target="nav-mobile" class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target:'#drawer',swipe:true}" mdui-tooltip="{content: '菜单'}"><i class="mdui-icon material-icons">menu</i></a>
+    <a href="../"><img class="logo" src="/pics/logo.png"></a>
+    <a href="../"><img class="logo2" src="/pics/fontlogo-white.png"></a>
     </div>
     <div class="mdui-toolbar-spacer"></div>
 </header> 
@@ -35,7 +35,7 @@
       <i class="mdui-list-item-icon mdui-icon mdui-text-color-theme material-icons">home</i>
       <div class="mdui-list-item-content">首页</div>
     </li>
-    <a href="https://sakuranomiya.moe/t/calibur-pixel"
+    <a href="https://sakuranomiya.moe/t/calibur-pixel" target="_blank"
     li class="mdui-list-item mdui-ripple" >
       <i class="mdui-list-item-icon mdui-icon material-icons">forum</i>
       <div class="mdui-list-item-content">论坛</div>
@@ -44,15 +44,30 @@
       <i class="mdui-list-item-icon mdui-icon material-icons">card_giftcard</i>
       <div class="mdui-list-item-content">捐赠</div>
     </a>
-    <li class="mdui-subheader">封禁</li>
-    <a href="https://docs.qq.com/sheet/Bnr7N31xwOuZ38eCPg4WQ6DQ4cqzJz0AIrMh0BAjcE02IR2M2Z9BHe4A5kfk2KKqCR3cydNd1?c=B29A0F0" li class="mdui-list-item mdui-ripple" >
-      <i class="mdui-list-item-icon mdui-icon material-icons">block</i>
-      <div class="mdui-list-item-content">旧版封禁列表</div>
+    <a href="color/" li  class="mdui-list-item mdui-ripple">
+      <i class="mdui-list-item-icon mdui-icon material-icons">format_color_text</i>
+      <div class="mdui-list-item-content">颜色</div>
     </a>
-    <a href="https://hianubis.com/" li class="mdui-list-item mdui-ripple" >
-      <i class="mdui-list-item-icon mdui-icon material-icons">gavel</i>
-      <div class="mdui-list-item-content">Anubis 联合封禁</div>
-    </a>
+    <li class="mdui-subheader">规则与指南</li>
+      <a href="https://sakuranomiya.moe/d/57" target="_blank"
+      li class="mdui-list-item mdui-ripple" >
+        <i class="mdui-list-item-icon mdui-icon material-icons">format_list_bulleted</i>
+        <div class="mdui-list-item-content">管理条例</div>
+      </a>
+      <a href="https://sakuranomiya.moe/d/65"  target="_blank"
+      li class="mdui-list-item mdui-ripple" >
+        <i class="mdui-list-item-icon mdui-icon material-icons">directions</i>
+        <div class="mdui-list-item-content">游玩指南</div>
+      </a>
+      <li class="mdui-subheader">封禁</li>
+      <a href="https://docs.qq.com/sheet/Bnr7N31xwOuZ38eCPg4WQ6DQ4cqzJz0AIrMh0BAjcE02IR2M2Z9BHe4A5kfk2KKqCR3cydNd1?c=B29A0F0" target="_blank" rel="noopener noreferrer" li class="mdui-list-item mdui-ripple" >
+        <i class="mdui-list-item-icon mdui-icon material-icons">block</i>
+        <div class="mdui-list-item-content">旧版封禁列表</div>
+      </a>
+      <a href="https://ban.hianubis.com" target="_blank" li class="mdui-list-item mdui-ripple" >
+        <i class="mdui-list-item-icon mdui-icon material-icons">gavel</i>
+        <div class="mdui-list-item-content">Anubis 联合封禁</div>
+      </a>
     <li class="mdui-subheader">主站</li>
     <a href="https://www.calibur.tv" li class="mdui-list-item mdui-ripple" >
       <i class="mdui-list-item-icon mdui-icon material-icons">arrow_back</i>
@@ -68,7 +83,7 @@
         </div>
         <div class="row center">
           <h5 class="header mdui-text-color-white shadowtext bold">Calibur 的 Minecraft 公益服务器</h5>
-          <h5 class="header mdui-text-color-white headtext2 shadowtext">QQ群: 222611224<br>版本: 1.18.1 (跟随更新)<br>连接地址: mc.calibur.tv</h5>
+          <h5 class="header mdui-text-color-white headtext2 shadowtext">QQ群: 222611224<br>版本: 1.18.2 (跟随更新)<br>连接地址: mc.calibur.tv</h5>
         </div>
         <div class="row center">
           <a href="https://github.com/Calibur-Pixel" id="QQGroup-button" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">团队的GitHub主页</a>
@@ -85,27 +100,27 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center mdui-text-color-theme youcantselect"><i class="mdui-icon material-icons">memory</i></h2>
-            <h5 class="center mdui-text-color-theme bold">极快的速度</h5>
+            <h5 class="center mdui-text-color-theme bold">性能</h5>
 
-            <p class="center light">在实体服务器上极速运转<br>由高性能服务端强力驱动<br>(感谢开源社区的贡献)</p>
+            <p class="center light">9900K级的高性能Xeon CPU<br>由Paper服务端驱动</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center mdui-text-color-theme youcantselect"><i class="mdui-icon material-icons">toys</i></h2>
-            <h5 class="center mdui-text-color-theme bold">友善的环境</h5>
+            <h5 class="center mdui-text-color-theme bold">可爱</h5>
 
-            <p class="center light">负责任、热心、与玩家互动的管理<br>服务器整体素质优秀<br>(如遇问题立刻举报)</p>
+            <p class="center light">倡导萌与可爱<br>Kawaii的MC社区</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center mdui-text-color-theme youcantselect"><i class="mdui-icon material-icons">settings</i></h2>
-            <h5 class="center mdui-text-color-theme bold">细心的维护</h5>
+            <h5 class="center mdui-text-color-theme bold">热忱</h5>
 
-            <p class="center light">插件、服务端紧贴新版本<br>细心的维护和修复<br>(发现BUG请踊跃提交)</p>
+            <p class="center light">由爱驱动<br>勤奋的更新与修复</p>
           </div>
         </div>
       </div>
@@ -115,7 +130,7 @@
             <h2 class="center mdui-text-color-theme youcantselect"><i class="mdui-icon material-icons">favorite</i></h2>
             <h5 class="center mdui-text-color-theme bold">樱花区</h5>
 
-            <p class="center light">特色插件生存服<br>完善的菜单、商店、社区系统</p>
+            <p class="center light">经典插件生存服<br>完善的菜单、商店、社区系统</p>
           </div>
         </div>
 
@@ -149,26 +164,14 @@
     <div class="parallax"><img src="background2.png" alt="Unsplashed background img 2"></div>
   </div>
 
-<!--浮动操作按钮-->
-<div class="mdui-fab-wrapper" mdui-fab>
-  <a href="https://sakuranomiya.moe/d/2" button class="mdui-fab mdui-ripple mdui-color-theme-accent" mdui-tooltip="{content: '填写盗版白名单申请', position: 'left'}">
-    <i class="mdui-icon material-icons">add</i>
-    <i class="mdui-icon mdui-fab-opened material-icons">mode_edit</i>
-  </button>
-  </a>
-  <div class="mdui-fab-dial">
-    <a href="https://jq.qq.com/?_wv=1027&k=w8qwhy9P" button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-light-blue mdui-text-color-white" mdui-tooltip="{content: '加入QQ群', position: 'left'}"><i class="mdui-icon material-icons">chat</i></button></a>
-  </div>
-</div>
-
 <!--白丝雪糕页脚(?)-->
   <footer class="page-footer mdui-color-theme">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="mdui-text-color-white-text bold">Calibur Pixel</h5>
+          <h5><img class="logo2" src="/pics/fontlogo-white.png"></h5>
           <ul>
-          <li><a class="mdui-text-color-white-secondary links" href="http://www.beian.miit.gov.cn/">互联网ICP备案：沪ICP备17050785号-1</a></li>
+          <li><a class="mdui-text-color-white-secondary links" href="http://beian.miit.gov.cn/">互联网ICP备案：沪ICP备17050785号-1</a></li>
           </ul>
 
         </div>
