@@ -216,7 +216,7 @@ padding: 40px 0 0 0;
 
 .color-guide-text {
 	font-size: 15px;
-	font-family: 'JetBrains Mono','Ubuntu Mono','Cascadia Code PL','Menlo','Consolas','Source Code Pro','Monaco','Noto Mono','Nimbus Mono L','Courier New', 'Fuck Simsun No Simsun', monospace;
+	font-family: 'JetBrains Mono','Ubuntu Mono','Cascadia Code PL','Menlo','Consolas','Source Code Pro','Monaco','Noto Mono','Nimbus Mono L','Courier New', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Fuck Simsun No Simsun', monospace;
 }
 
 .color-guide-colors li {
