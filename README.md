@@ -1,3 +1,5 @@
+## 已重写：[Kita](https://github.com/Calibur-Pixel/Kita)
+
 # Calibur Pixel Website
 
 >静态页面
